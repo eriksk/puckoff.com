@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://puckoffgame.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: erikskogl
 github_username:  eriksk
+copyright: Copyright &copy Erik Skoglund - Skoggy Games 2017
 
 # Build settings
 markdown: kramdown

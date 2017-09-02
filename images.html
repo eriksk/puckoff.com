@@ -1,0 +1,11 @@
+---
+layout: page
+title: Images
+permalink: /Images/
+---
+
+{% for image in site.static_files %}
+    {% if image.path contains 'images/gameplay' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" class="u-full-width u-max-full-width" alt="image" />
+    {% endif %}
+{% endfor %}
