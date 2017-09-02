@@ -96,23 +96,37 @@ a:hover{
 }
 
 .navbar{
-    margin-bottom:12px;
-    
     .logo{
         color:$color-red;
         font-size:180%;
-        padding-right:24pt;
+        margin-right:24pt;
+        background-color: $color-white;
+        border: solid 2px $color-red;
+        padding:8px;
+        border-radius:8px;
     }
 
     ul{
-        display:inline;
+        display:inline-block;
     }
 
     ul li {
         text-align: left;
         display: inline-block;
-        position: relative;
         padding-right:18pt;
+    }
+
+    @media screen and (max-width: 600px){
+        ul{
+            display: inline-block;
+        }
+        ul li{
+            display: block;
+        }
+
+        .logo{
+            margin-bottom:28px;
+        }
     }
 }
 

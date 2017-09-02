@@ -5,6 +5,8 @@ date:   2017-09-02 17:43:35 +0200
 categories: news
 ---
 
+<p>I started making a game</p>
+
 One week ago I started playing around with the idea of creating a hockey game. My inspiration mainly old classic table-hockey games. Where I come from (Sweden), almost everyone I knew as a kid had one of these games.
 
 <div class="row">
