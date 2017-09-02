@@ -7,7 +7,11 @@ categories: news
 
 One week ago I started playing around with the idea of creating a hockey game. My inspiration mainly old classic table-hockey games. Where I come from (Sweden), almost everyone I knew as a kid had one of these games.
 
-![PUCK OFF]({{ site.github.url }}/assets/images/logos/puck_off_logo_SM.png)
+<div class="row">
+    <div class="twelve columns">
+        <img src="{{ site.github.url }}/assets/images/gameplay/1.png" alt="PUCK OFF" class="u-full-width">
+    </div>
+</div>
 
 So I decided to start making a prototype, things took of quickly and turned into a fully functional 4-player local multiplayer hockey game!
 It's not entirely like the old table-hockey games. But with that and a mix of real hockey I think it turned out really well!
