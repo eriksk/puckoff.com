@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Second post"
+date:   2017-09-02 17:43:35 +0200
+categories: news
+---
+
+some stuff
