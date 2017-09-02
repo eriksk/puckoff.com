@@ -8,7 +8,7 @@ layout: default
 <div class="row">
     <div class="twelve columns">
         <div class="center">
-            <img src="{{ site.url }}/assets/images/logos/puck_off_logo_SM.png" alt="PUCK OFF LOGO">
+            <img src="{{ site.github.url }}/assets/images/logos/puck_off_logo_SM.png" alt="PUCK OFF LOGO">
         </div>
     </div>
 </div>
@@ -19,10 +19,7 @@ layout: default
 </p>
 
 <p>
-    <i><span class="puckoff">PUCK OFF</span> is a game that currently in development:</i>
+    <i><span class="puckoff">PUCK OFF</span> is currently in development</i>
 </p>
 
-<div class="center">
-    <strong class="text-status">DEVELOPMENT STATUS: </strong>
-    <span class="label">PRE-ALPHA</span>
-</div>
+<p>Read more in the <a href="{% post_url 2017-09-02-puck-of-site-is-live %}">Blog</a></p>
