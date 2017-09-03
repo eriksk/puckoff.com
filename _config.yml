@@ -23,6 +23,9 @@ twitter_username: erikskogl
 github_username:  eriksk
 copyright: Copyright &copy Erik Skoglund - Skoggy Games 2017
 
+disqus:
+  shortname: puckoffgame
+
 # Build settings
 markdown: kramdown
 theme: minima
