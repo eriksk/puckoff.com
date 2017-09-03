@@ -28,6 +28,10 @@ body{
     }
 }
 
+code{
+    text-transform: none;
+}
+
 .container{
     background-color: $color-white;
 }
@@ -99,7 +103,7 @@ a:hover{
     .logo{
         color:$color-red;
         font-size:180%;
-        margin-right:24pt;
+        margin-right:8pt;
         background-color: $color-white;
         border: solid 2px $color-red;
         padding:8px;
@@ -113,7 +117,11 @@ a:hover{
     ul li {
         text-align: left;
         display: inline-block;
-        padding-right:18pt;
+        padding:4pt;
+        padding-top:0;
+        padding-bottom:0;
+        border-bottom: 1px solid $color-blue;
+        margin-top:8px;
     }
 
     @media screen and (max-width: 600px){
