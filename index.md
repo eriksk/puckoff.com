@@ -14,12 +14,13 @@ layout: default
 </div>
 
 <p>
-    One week ago I started playing around with the idea of creating a hockey game. My inspiration mainly old classic table-hockey games. Where I come from (Sweden), almost everyone I knew as a kid had one of these games.
-    <span class="puckoff">PUCK OFF</span> is mix of table-hockey and real hockey and can be played by 1-4 players locally
+    <span class="puckoff">PUCK OFF</span> is mix of tabletop-hockey and real hockey and can be played by 1-4 players locally
 </p>
 
-<p>
-    <i><span class="puckoff">PUCK OFF</span> is currently in development</i>
-</p>
+<p class="center"><a href="{% post_url 2017-09-02-puck-of-site-is-live %}">Read more in the  Blog</a></p>
 
-<p>Read more in the <a href="{% post_url 2017-09-02-puck-of-site-is-live %}">Blog</a></p>
+<div class="row">
+    <div class="twelve columns">
+        <img src="{{ site.github.url }}/assets/images/gameplay/title.png" alt="PUCK OFF" class="u-full-width">
+    </div>
+</div>

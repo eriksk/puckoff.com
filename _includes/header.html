@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="row">
-        <div class="eight columns">
+        <div class="ten columns">
             {% assign default_paths = site.pages | map: "path" %}
             {% assign page_paths = site.header_pages | default: default_paths %}
             <a class="logo" href="{{ "/" | relative_url }}">PUCK OFF</a>
@@ -18,7 +18,7 @@
                 {% endif %}
             </ul>
         </div>
-        <div class="three columns text-right u-pull-right">
+        <div class="two columns text-right u-pull-right">
             <div>
                 <strong class="text-status">DEVELOPMENT STATUS</strong>
             </div>
