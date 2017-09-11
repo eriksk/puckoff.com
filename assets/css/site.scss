@@ -15,11 +15,14 @@ $color-text: $color-black;
     src: url('/assets/fonts/Sports World-Regular.ttf');
 }
 
-body{
-    text-transform: uppercase;
+@font-face{
+    font-family: Default;
+    src: url('/assets/fonts/quantico/Quantico-Bold.otf');
+}
 
+body{
     background-color:$color-blue;
-    font-family: Hockey;
+    font-family: Default;
 
     color: $color-black;
 
@@ -99,6 +102,8 @@ a:hover{
     color: lighten($link-color, 10%);
 }
 
+
+
 .navbar{
     .logo{
         color:$color-red;
@@ -108,6 +113,8 @@ a:hover{
         border: solid 2px $color-red;
         padding:8px;
         border-radius:8px;
+        font-family: Hockey;
+
     }
 
     ul{
@@ -157,6 +164,8 @@ ul{
 
 .puckoff{
     color:$color-red;
+    font-family: Hockey;
+    text-transform: uppercase;
 }
 
 .text-status{
