@@ -5,6 +5,12 @@
 layout: default
 ---
 
+
+<p class="center">
+    <span class="puckoff">PUCK OFF</span> is mix of tabletop-hockey and real hockey and can be played by 1-4 players locally
+</p>
+
+
 <div class="row">
     <div class="twelve columns">
         <div class="center">
@@ -13,14 +19,11 @@ layout: default
     </div>
 </div>
 
-<p>
-    <span class="puckoff">PUCK OFF</span> is mix of tabletop-hockey and real hockey and can be played by 1-4 players locally
-</p>
-
-<p class="center"><a href="{% post_url 2017-09-02-puck-of-site-is-live %}">Read more in the  Blog</a></p>
+<p class="center"><a href="{% post_url 2017-09-02-puck-of-site-is-live %}">Read more in the Blog</a></p>
 
 <div class="row">
     <div class="twelve columns">
-        <img src="{{ site.github.url }}/assets/images/gameplay/title.png" alt="PUCK OFF" class="u-full-width">
+        <iframe class="u-full-width" height="512px" src="https://www.youtube.com/embed/QFoMXMB_uiU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+        </iframe>
     </div>
 </div>
