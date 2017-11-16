@@ -14,7 +14,7 @@ layout: default
 <div class="row">
     <div class="twelve columns">
         <div class="center">
-            <img src="{{ site.github.url }}/assets/images/logos/puck_off_logo_SM.png" alt="PUCK OFF LOGO">
+            <img src="{{ site.github.url }}/assets/images/logos/puck_off_logo_banner_SM.png" alt="PUCK OFF LOGO">
         </div>
     </div>
 </div>
@@ -23,7 +23,6 @@ layout: default
 
 <div class="row">
     <div class="twelve columns">
-        <iframe class="u-full-width" height="512px" src="https://www.youtube.com/embed/QFoMXMB_uiU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-        </iframe>
+        <img class="u-full-width" src="{{ site.github.url }}/assets/images/gameplay/new_9.png" alt="PUCK OFF LOGO">
     </div>
 </div>

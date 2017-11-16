@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Puck Off is being developed by Erik Skoglund - [Skoggy.se](http://skoggy.se)
+Puck Off is being developed by [Skoggy Games](http://skoggygames.com)

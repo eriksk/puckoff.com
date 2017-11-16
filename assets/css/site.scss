@@ -1,13 +1,14 @@
 ---
 ---
 
-$color-blue: #093370;
-$color-red: #d70a0b;
-$color-white: white;
-$color-black: #2E2E2E;
-$color-header-small: #597EB3;
+$color-blue: #3c3332;
+$color-red: #d44637;
+$color-white: #ebebe0;
+$color-black: #3c3332;
+$color-header-small: #3fafc0;
+$color-yellow: #f9ba55;
 
-$link-color: $color-blue;
+$link-color: $color-red;
 $color-text: $color-black;
 
 @font-face {
@@ -16,13 +17,13 @@ $color-text: $color-black;
 }
 
 @font-face{
-    font-family: Default;
+    font-family: Quantico;
     src: url('/assets/fonts/quantico/Quantico-Bold.otf');
 }
 
 body{
     background-color:$color-blue;
-    font-family: Default;
+    font-family: Quantico;
 
     color: $color-black;
 
@@ -106,15 +107,8 @@ a:hover{
 
 .navbar{
     .logo{
-        color:$color-red;
-        font-size:180%;
-        margin-right:8pt;
-        background-color: $color-white;
-        border: solid 2px $color-red;
-        padding:8px;
-        border-radius:8px;
         font-family: Hockey;
-
+        width:128px;
     }
 
     ul{
