@@ -9,3 +9,16 @@ permalink: /Images/
         <img src="{{ site.github.baseurl }}{{ image.path }}" class="u-full-width u-max-full-width" alt="image" />
     {% endif %}
 {% endfor %}
+
+<h2>Wallpapers</h2>
+
+
+<ul class="list-unstyled">
+    {% for image in site.static_files %}
+    {% if image.path contains 'images/wallpapers' %}
+    <li>
+        <a href="{{ site.github.baseurl }}{{ image.path }}" download>{{image.name}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

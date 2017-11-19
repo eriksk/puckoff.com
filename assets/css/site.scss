@@ -179,4 +179,12 @@ ul{
     background-color: $color-blue;
     color: $color-white;
     padding:4px;
+    padding-top:0px;
+    padding-bottom:0px;
+
+    &.inverted
+    {
+        background-color: $color-white;
+        color: $color-blue;
+    }
 }

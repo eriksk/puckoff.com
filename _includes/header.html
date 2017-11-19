@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="row">
-        <div class="ten columns">
+        <div class="eight columns">
             {% assign default_paths = site.pages | map: "path" %}
             {% assign page_paths = site.header_pages | default: default_paths %}
             <a class="" href="{{ "/" | relative_url }}">
@@ -20,10 +20,16 @@
                 {% endif %}
             </ul>
         </div>
-        <div class="two columns text-right u-pull-right">
+        <div class="four columns text-right u-pull-right">
             <span class="puck">
                 <strong class="text-status">Dev status</strong>
-                <span class="label">Alpha</span>
+            </span>
+            <br />
+            <span style="font-size:75%">
+                <span class="">Pre-Alpha</span>|
+                <span class="label">Alpha</span>|
+                <span class="">Beta</span>|
+                <span class="">Release</span>
             </span>
         </div>
     </div>
