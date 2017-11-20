@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
 
@@ -9,7 +6,6 @@ layout: default
 <p class="center">
     <span class="puckoff">PUCK OFF</span> is mix of tabletop-hockey and real hockey and can be played by 1-4 players locally
 </p>
-
 
 <div class="row">
     <div class="twelve columns">
@@ -23,6 +19,8 @@ layout: default
 
 <div class="row">
     <div class="twelve columns">
-        <img class="u-full-width" src="{{ site.github.url }}/assets/images/gameplay/new_9.png" alt="PUCK OFF LOGO">
+        <img id="carousel" class="u-full-width dropshadow" src="{{ site.github.url }}/assets/images/gameplay/new_9.png" alt="PUCK OFF LOGO" />
     </div>
 </div>
+
+<script type="text/javascript" src="{{ "/assets/js/pages/index.js" | relative_url }}"></script>
