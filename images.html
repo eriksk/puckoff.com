@@ -6,19 +6,25 @@ permalink: /Images/
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/gameplay' %}
-        <img src="{{ site.github.baseurl }}{{ image.path }}" class="u-full-width u-max-full-width" alt="image" />
+        {% unless image.path contains '_thumbnail' %}
+            <a href="{{ site.github.baseurl }}{{ image.path }}" class="progressive replace">
+                <img src="{{ site.github.baseurl }}{{ image.path }}_thumbnail.jpg" class="preview u-full-width u-max-full-width" alt="image" />
+            </a>
+            <br/>
+        {% endunless %}
     {% endif %}
 {% endfor %}
 
 <h2>Wallpapers</h2>
 
-
 <ul class="list-unstyled">
     {% for image in site.static_files %}
     {% if image.path contains 'images/wallpapers' %}
+    {% unless image.path contains '_thumbnail' %}
     <li>
         <a href="{{ site.github.baseurl }}{{ image.path }}" download>{{image.name}}</a>
     </li>
+    {% endunless %}
     {% endif %}
     {% endfor %}
 </ul>

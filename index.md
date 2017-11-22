@@ -10,7 +10,7 @@ layout: default
 <div class="row">
     <div class="twelve columns">
         <div class="center">
-            <img src="{{ site.github.url }}/assets/images/logos/puck_off_logo_banner_SM.png" alt="PUCK OFF LOGO">
+            <img src="{{ site.github.baseurl }}/assets/images/logos/puck_off_logo_banner_SM.png" alt="PUCK OFF LOGO" />
         </div>
     </div>
 </div>
@@ -19,7 +19,9 @@ layout: default
 
 <div class="row">
     <div class="twelve columns">
-        <img id="carousel" class="u-full-width dropshadow" src="{{ site.github.url }}/assets/images/gameplay/new_9.png" alt="PUCK OFF LOGO" />
+        <a href="{{ site.github.url }}/assets/images/gameplay/new_9.png" class="progressive replace">
+            <img src="{{ site.github.url }}/assets/images/gameplay/new_9.png_thumbnail.jpg" class="preview u-full-width dropshadow" alt="PUCK OFF LOGO"  />
+        </a>
     </div>
 </div>
 
