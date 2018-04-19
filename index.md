@@ -11,8 +11,8 @@ layout: default
 
 <div class="row">
     <div class="twelve columns">
-        <a href="{{ site.github.url }}/assets/images/wallpapers/Puck Off Wallpaper (Banner).png" class="progressive replace">
-            <img src="{{ site.github.url }}/assets/images/wallpapers/Puck Off Wallpaper (Banner).png_thumbnail.jpg" class="preview u-full-width dropshadow" alt="PUCK OFF LOGO"  />
+        <a href="{{ site.github.url }}/assets/images/wallpapers/Puck Off Wallpaper (Banner)_md.png" class="progressive replace">
+            <img src="{{ site.github.url }}/assets/images/wallpapers/Puck Off Wallpaper (Banner)_sm.png" class="preview u-full-width dropshadow" alt="PUCK OFF LOGO"  />
         </a>
     </div>
 </div>

@@ -6,9 +6,10 @@ permalink: /Images/
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/gameplay' %}
-        {% unless image.path contains '_thumbnail' %}
-            <a href="{{ site.github.baseurl }}{{ image.path }}" class="progressive replace">
-                <img src="{{ site.github.baseurl }}{{ image.path }}_thumbnail.jpg" class="preview u-full-width u-max-full-width" alt="image" />
+        {% unless image.path contains '_sm' or image.path contains '_md'  %}
+            <p>{{ image.to_json }}</p>
+            <a href="{{ site.github.baseurl }}/assets/images/gameplay/{{ image.basename }}_md.png" class="progressive replace">
+                <img src="{{ site.github.baseurl }}/assets/images/gameplay/{{ image.basename }}_sm.png" class="preview u-full-width u-max-full-width" alt="image" />
             </a>
             <br/>
         {% endunless %}
@@ -20,7 +21,7 @@ permalink: /Images/
 <ul class="list-unstyled">
     {% for image in site.static_files %}
     {% if image.path contains 'images/wallpapers' %}
-    {% unless image.path contains '_thumbnail' %}
+    {% unless image.path contains '_sm' or image.path contains '_md'  %}
     <li>
         <a href="{{ site.github.baseurl }}{{ image.path }}" download>{{image.name}}</a>
     </li>
