@@ -66,37 +66,3 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
         }
     });
 }
-
-
-
-// document.addEventListener("DOMContentLoaded", function(event) { 
-
-//     var imageOnLoad = function(element) {
-//         var src = element.getAttribute("src");
-//         if(src.indexOf("_thumbnail") == -1)
-//         {
-//             console.log("done for: " + src);
-//             return;
-//         }
-
-//         console.log("Found thumb: " + src);
-//         var newSrc = src.replace("_thumbnail", "");
-//         console.log("Setting new src: " + newSrc);
-//         element.setAttribute("src", newSrc);
-//     };
-
-//     setTimeout(function(){
-//         console.log("loading");
-
-//         var imageElements = document.getElementsByTagName("img");
-        
-//         for(var i = 0; i < imageElements.length; i++)
-//         {
-//             var element = imageElements[i];
-//             element.onload = function(){
-//                 imageOnLoad(element);
-//             };
-//             imageOnLoad(element);
-//         }
-//     }, 1000);
-// });

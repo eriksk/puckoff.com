@@ -5,11 +5,12 @@ $color-blue: #3c3332;
 $color-red: #d44637;
 $color-white: #ebebe0;
 $color-black: #3c3332;
-$color-header-small: #3fafc0;
+$color-header-small: lighten($color-blue, 25%);
 $color-yellow: #f9ba55;
 
 $link-color: $color-red;
 $color-text: $color-black;
+$color-border: lighten($color-black, 50%);
 
 @font-face {
     font-family: Hockey;
@@ -191,4 +192,35 @@ ul{
 
 .dropshadow{
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.4);
+}
+
+.feature-card{
+    img{
+        // border:1px solid red;
+        padding-top:0;
+        padding-bottom: 0;
+        margin:0;
+    }
+    p{
+        // border:1px solid blue;
+        font-size:150%;
+        padding:0;
+        margin:0;
+        background-color: lighten($color-black, 60%);
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    border:1px solid $color-border;
+    padding:0;
+    margin:8px;
+    margin-bottom:16px;
+}
+
+.banner{
+    margin:0;
+    padding:0;
+    width:100%;
+    position:fixed;
+    margin-top:-128px;
+    opacity: 0.3;
 }
