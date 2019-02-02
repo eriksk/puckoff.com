@@ -11,6 +11,7 @@ $color-yellow: #f9ba55;
 $link-color: $color-red;
 $color-text: $color-black;
 $color-border: lighten($color-black, 50%);
+$color-text-muted: lighten($color-black, 35%);
 
 @font-face {
     font-family: Hockey;
@@ -223,4 +224,8 @@ ul{
     position:fixed;
     margin-top:-128px;
     opacity: 0.3;
+}
+
+.text-muted{
+    color: $color-text-muted;
 }

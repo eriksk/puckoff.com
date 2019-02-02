@@ -5,8 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://puckoffgame.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: skoggygames
+twitter_username_personal: erikskogl
 github_username:  eriksk
-copyright: Copyright &copy Erik Skoglund - Skoggy Games 2017 - 2018
+copyright: Copyright &copy Erik Skoglund - Skoggy Games 2017
 
 disqus:
   shortname: puckoffgame
